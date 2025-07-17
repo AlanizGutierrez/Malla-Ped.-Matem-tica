@@ -15,7 +15,7 @@ const malla = [
   { id: "reflexion", nombre: "Reflexión Crítica y Filosófica de los Procesos Educativos", creditos: 4, semestre: 2, requisitos: [] },
 
   // 📘 TERCER SEMESTRE
-  { id: "pract_2", nombre: "Práctica II de Colaboración", creditos: 4, semestre: 3, requisitos: ["pract_1"] },
+  { id: "pract_2", nombre: "Práctica II de Colaboración", creditos: 4, semestre: 3, requisitos: ["pract_1", "alg_intro", "proc_inf", "geom_plana", "tic_aprend", "reflexion"] },
   { id: "calc_diff", nombre: "Cálculo Diferencial en Una Variable", creditos: 6, semestre: 3, requisitos: ["proc_inf", "alg_intro", "geom_plana"] },
   { id: "geom_esp", nombre: "Geometría del Espacio y Vectorial", creditos: 6, semestre: 3, requisitos: ["geom_plana"] },
   { id: "estadistica", nombre: "Estadística Descriptiva", creditos: 6, semestre: 3, requisitos: ["mat_elem", "tic_aprend"] },
