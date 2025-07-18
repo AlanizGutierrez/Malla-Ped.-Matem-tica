@@ -48,7 +48,7 @@ const malla = [
   { id: "curriculum", nombre: "Currículum y Planificación para Educación Matemática", creditos: 4, semestre: 6, requisitos: ["teo_didac", "teoremas", "politicas", "pract_3"] },
 
   // 📘 SÉPTIMO SEMESTRE
-  { id: "pract_4", nombre: "Práctica IV de Codocencia en Contextos Educativos Diversos", creditos: 4, semestre: 7, requisitos: ["pract_3", "paradigmas", "curriculum", "inferencia"] },
+  { id: "pract_4", nombre: "Práctica IV de Codocencia en Contextos Educativos Diversos", creditos: 4, semestre: 7, requisitos: ["pract_3", "algebra_lin", "teoremas", "div_inclu", "politicas","idioma_3", "paradigmas", "curriculum", "inferencia"] },
   { id: "calc_varias", nombre: "Cálculo en Varias Variables", creditos: 6, semestre: 7, requisitos: ["analisis_reales"] },
   { id: "didac_mate", nombre: "Didáctica de la Matemática", creditos: 6, semestre: 7, requisitos: ["div_inclu", "teo_didac", "inferencia", "curriculum"] },
   { id: "evaluacion", nombre: "Evaluación para Educación Matemática", creditos: 4, semestre: 7, requisitos: ["curriculum", "paradigmas"] },
