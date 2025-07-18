@@ -63,7 +63,7 @@ const malla = [
   { id: "mencion_2", nombre: "Mención II", creditos: 8, semestre: 8, requisitos: ["mencion_1"] },
 
   // 📘 NOVENO SEMESTRE
-  { id: "pract_6", nombre: "Práctica VI de Docencia Final", creditos: 24, semestre: 9, requisitos: ["pract_5", "proyecto", "mencion_2"] },
+  { id: "pract_6", nombre: "Práctica VI de Docencia Final", creditos: 24, semestre: 9, requisitos: ["pract_5", "teo_grupos", "invest_innova", "orientacion", "proyecto", "mencion_2"] },
   { id: "egreso", nombre: "Fortalecimiento de Competencias de Egreso", creditos: 4, semestre: 9, requisitos: ["pract_4", "didac_mate", "evaluacion", "mencion_1"] },
 
   // 📘 DÉCIMO SEMESTRE
